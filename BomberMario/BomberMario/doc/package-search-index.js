@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"com.example.bombermario","l":"com.example.bombermario"},{"m":"com.example.bombermario","l":"com.example.bombermario.control"},{"m":"com.example.bombermario","l":"com.example.bombermario.model"},{"m":"com.example.bombermario","l":"com.example.bombermario.Screens"}];updateSearchResults();

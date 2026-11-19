@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.StackPane?>
+
+<!-- The content is built in code by GameOverController (pixel-font labels and animated drawings). -->
+<StackPane fx:id="root" prefHeight="640.0" prefWidth="840.0" stylesheets="@styles.css"
+           xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="com.example.bombermario.control.GameOverController">
+    <Canvas fx:id="background" height="640.0" width="840.0" />
+</StackPane>

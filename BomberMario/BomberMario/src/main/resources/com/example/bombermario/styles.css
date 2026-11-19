@@ -1,0 +1,88 @@
+/* Castillo en Obras - menu styles. All text is drawn with the game's own pixel font
+   (PixelLabel), so these rules only shape panels, cards and buttons. No glows. */
+
+.panel {
+    -fx-background-color: rgba(16, 17, 28, 0.82);
+    -fx-background-radius: 6;
+    -fx-border-color: #3c4060;
+    -fx-border-width: 3;
+    -fx-border-radius: 6;
+    -fx-padding: 16 22 16 22;
+}
+
+.card {
+    -fx-background-color: rgba(18, 19, 31, 0.88);
+    -fx-background-radius: 6;
+    -fx-border-color: #3c4060;
+    -fx-border-width: 3;
+    -fx-border-radius: 6;
+    -fx-padding: 10 10 12 10;
+    -fx-min-height: 160;
+}
+.card:hover {
+    -fx-translate-y: -3;
+}
+.card.stat-card {
+    -fx-min-height: 0;
+    -fx-padding: 8 8 8 8;
+}
+
+.keycap-box {
+    -fx-background-color: #6f7590, #f2f3f8;
+    -fx-background-insets: 0, 0 0 4 0;
+    -fx-background-radius: 4;
+    -fx-padding: 4 7 8 7;
+}
+
+.rule-strip {
+    -fx-background-color: rgba(70, 28, 30, 0.85);
+    -fx-background-radius: 6;
+    -fx-border-color: #a2483c;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+    -fx-padding: 6 14 6 14;
+}
+
+/* Chunky arcade buttons: flat color, a darker bottom edge, and they rise on hover */
+.big-button {
+    -fx-background-color: #a3451a, #ffcd28;
+    -fx-background-insets: 0, 0 0 5 0;
+    -fx-background-radius: 6;
+    -fx-padding: 12 28 16 28;
+    -fx-cursor: hand;
+}
+.big-button:hover {
+    -fx-background-color: #a3451a, #ffe066;
+    -fx-translate-y: -2;
+}
+.big-button:pressed {
+    -fx-background-insets: 0, 3 0 2 0;
+    -fx-translate-y: 1;
+}
+
+.coop-button {
+    -fx-background-color: #20305e, #3f63c8;
+    -fx-background-insets: 0, 0 0 5 0;
+    -fx-background-radius: 6;
+    -fx-padding: 12 24 16 24;
+    -fx-cursor: hand;
+}
+.coop-button:hover {
+    -fx-background-color: #20305e, #5a80e6;
+    -fx-translate-y: -2;
+}
+.coop-button:pressed {
+    -fx-background-insets: 0, 3 0 2 0;
+    -fx-translate-y: 1;
+}
+
+.sound-button {
+    -fx-background-color: #23253a, #3c4060;
+    -fx-background-insets: 0, 0 0 3 0;
+    -fx-background-radius: 5;
+    -fx-padding: 7 12 9 12;
+    -fx-cursor: hand;
+}
+.sound-button:hover {
+    -fx-background-color: #23253a, #565b84;
+}
